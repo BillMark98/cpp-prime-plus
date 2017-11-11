@@ -7,9 +7,8 @@
 //
 
 #include <iostream>
-#include <stdexcept>
 #include <cmath>
-#include "exc_mean.hpp"
+#include "exc_mean.h"
 using namespace std;
 
 double hmean(double a, double b);
