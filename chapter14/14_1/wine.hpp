@@ -56,10 +56,12 @@ public:
     Wine(const char * l, int y, const int yr[],const int bot[]) :
     label(l),p_pairArray(ArrayInt(yr,y),ArrayInt(bot,y))
     {
-        cout << "The first constructor." << endl;
+        
     }
     Wine(const char * l, int y) : label(l),p_pairArray(ArrayInt(y),ArrayInt(y))
-    { cout << "The secondconstructor." << endl;}
+    {
+    
+    }
     void GetBottles();
     void Show() const;
     string Label() const { return label;}
