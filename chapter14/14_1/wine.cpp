@@ -12,7 +12,6 @@ void Wine::GetBottles()
     int size = (int)p_pairArray.first().size(); // calculating how many years entered (which is equal to
                                                 // the size of the valarray
     int year;
-    cout << "The size in Get function : " << size<< endl;
     int bottle;
     cout << "Enter " << Label()
     << " data for " << size << " years:"<<endl;
@@ -34,7 +33,6 @@ void Wine::Show() const
     cout << "Wine:" << Label() <<endl;
     cout << setw(8) << " Year" << setw(10) << "Bottles"<<endl;
     int size = (int)p_pairArray.first().size();
-    cout << "The size in Show function : " << size<< endl;
     for(int i = 0; i < size; i++)
     {
         cout << setw(8) << p_pairArray.first()[i]
